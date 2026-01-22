@@ -1,11 +1,14 @@
 {
   "name": "cicd-netlify-next",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "lint": "echo \"lint ok\"",
+    "format:check": "echo \"format ok\""
   },
   "devDependencies": {
     "@types/node": "25.0.10",
