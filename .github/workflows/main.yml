@@ -86,9 +86,6 @@ jobs:
       - name: Build application
         run: npm run build
 
-      - name: Export static site
-        run: npx next export
-
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
