@@ -6,11 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-
     "type-check": "tsc --noEmit",
     "lint": "echo \"lint ok\"",
     "format:check": "echo \"format ok\"",
-
     "test": "echo \"tests ok\"",
     "test:unit": "echo \"unit tests ok\"",
     "test:integration": "echo \"integration tests ok\""
@@ -18,5 +16,10 @@
   "devDependencies": {
     "@types/node": "25.0.10",
     "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "next": "16.1.4",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
   }
 }
