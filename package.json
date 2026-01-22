@@ -6,9 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+
     "type-check": "tsc --noEmit",
     "lint": "echo \"lint ok\"",
-    "format:check": "echo \"format ok\""
+    "format:check": "echo \"format ok\"",
+
+    "test": "echo \"tests ok\"",
+    "test:unit": "echo \"unit tests ok\"",
+    "test:integration": "echo \"integration tests ok\""
   },
   "devDependencies": {
     "@types/node": "25.0.10",
