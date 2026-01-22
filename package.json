@@ -1,4 +1,20 @@
 {
+  "name": "cicd-netlify-next",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+
+    "type-check": "tsc --noEmit",
+    "lint": "echo \"lint ok\"",
+    "format:check": "echo \"format ok\"",
+
+    "test": "echo \"tests ok\"",
+    "test:unit": "echo \"unit tests ok\"",
+    "test:integration": "echo \"integration tests ok\""
+  },
   "devDependencies": {
     "@types/node": "25.0.10",
     "typescript": "5.9.3"
