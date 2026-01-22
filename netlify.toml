@@ -1,3 +1,7 @@
 [build]
-  command = "npm ci && npm run build && npx next export"
+  command = "npm run build"
   publish = "out"
+
+# (Opcional) Cache para acelerar builds en Netlify (si compilas ahí)
+[build.environment]
+  NODE_VERSION = "20"
